@@ -19,7 +19,6 @@ export default function Navbar({ onDownloadClick }) {
     { name: 'Features', href: '#features' },
     { name: 'EPI Schedule', href: '#epi-schedule' },
     { name: 'How It Works', href: '#how-it-works' },
-    { name: 'App Preview', href: '#showcase' },
     { name: 'Parent & RHU Views', href: '#roles' },
     { name: 'FAQ', href: '#faq' },
   ];

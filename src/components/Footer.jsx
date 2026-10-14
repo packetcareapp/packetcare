@@ -57,11 +57,6 @@ export default function Footer({ onDownloadClick, onOpenInstallModal }) {
                 </a>
               </li>
               <li>
-                <a href="#showcase" className="hover:text-care-400 transition-colors">
-                  Interactive App Preview
-                </a>
-              </li>
-              <li>
                 <a href="#roles" className="hover:text-care-400 transition-colors">
                   Mobile Portals (Parent & RHU Views)
                 </a>

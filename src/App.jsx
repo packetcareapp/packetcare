@@ -7,7 +7,6 @@ import AboutSection from './components/AboutSection';
 import FeaturesSection from './components/FeaturesSection';
 import EpiScheduleSection from './components/EpiScheduleSection';
 import HowItWorksSection from './components/HowItWorksSection';
-import InteractiveAppShowcase from './components/InteractiveAppShowcase';
 import UserRolesSection from './components/UserRolesSection';
 import DownloadSection from './components/DownloadSection';
 import FaqSection from './components/FaqSection';
@@ -79,10 +78,7 @@ export default function App() {
         {/* 6. Step-by-Step Workflow */}
         <HowItWorksSection />
 
-        {/* 7. Interactive App Showcase (Parent, RHU View) */}
-        <InteractiveAppShowcase onDownloadClick={handleDownloadClick} />
-
-        {/* 8. User Roles Deep-Dive */}
+        {/* 7. User Roles Deep-Dive */}
         <UserRolesSection 
           onDownloadClick={handleDownloadClick} 
           onShowToast={showToast}

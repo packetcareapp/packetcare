@@ -395,45 +395,6 @@ export const USER_ROLES = [
   }
 ];
 
-export const APP_SCREENS = [
-  {
-    id: "parent_view",
-    roleBadge: "Parent View",
-    title: "Digital Bakuna Card & Milestone Timeline",
-    subtitle: "Clear visibility into your baby's vaccination journey",
-    highlights: [
-      "Color-coded status badges: Green (Done), Yellow (Due), Blue (Next)",
-      "Clear 28-day spacing indicators between series doses",
-      "Automated cellular SMS notifications before clinic day"
-    ],
-    sampleData: {
-      childName: "Lucas Santos",
-      age: "3 Months",
-      dosesCompleted: 6,
-      totalDoses: 13,
-      dueVaccine: "Pentavalent 3 & OPV 3",
-      dueDate: "Oct 19, 2026 (Due in 7 Days)"
-    }
-  },
-  {
-    id: "rhu_view",
-    roleBadge: "RHU Health Worker View",
-    title: "Child Registry, Defaulter Tracking & 1-Click SMS",
-    subtitle: "Spot missed appointments and dispatch SMS reminders instantly",
-    highlights: [
-      "Automated defaulter list sorted by overdue duration",
-      "1-Click Semaphore SMS reminder dispatch to guardian phones",
-      "Field recording mode works with zero signal"
-    ],
-    sampleData: {
-      station: "San Isidro Health Center",
-      defaulterName: "Sofia Ramos (5 Mos)",
-      overdueBadge: "9 Days Overdue",
-      missedDose: "PCV Dose 2"
-    }
-  }
-];
-
 export const FAQS = [
   {
     question: "What does the Parent View show?",

@@ -162,7 +162,7 @@ export default function FeaturesSection() {
             Features for Parents and RHU Staff
           </h2>
           <p className="mt-3 text-base text-slate-300">
-            Interactive mobile tools designed for immunization tracking and field healthcare.
+            Essential mobile tools designed for immunization tracking and field healthcare.
           </p>
 
           {/* Filter Pills */}
