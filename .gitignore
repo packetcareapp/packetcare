@@ -23,3 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
+# Root APK build files (official download asset lives in public/downloads/)
+/PacketCare.apk
+

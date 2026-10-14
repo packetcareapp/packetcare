@@ -11,7 +11,7 @@ Built with **React**, **Vite**, and **Tailwind CSS**. Designed specifically for 
 - **Hero & Interactive Smartphone Frame:** Live mockup simulating the PacketCare Android app with the official DOH EPI vaccine timeline, child status badges (Completed, Due, Upcoming), and incoming Semaphore SMS alerts.
 - **DOH EPI Routine Immunization Roadmap:** Complete table detailing the 13 required childhood doses from birth to 12 months (BCG, Hep B, Pentavalent 1-3, OPV 1-3, IPV, PCV 1-3, MMR) with 28-day safety intervals and preventable disease protection.
 - **Interactive Role Showcase:** Switch between the **Parent View** (Digital Bakuna Card, milestone countdown) and the **RHU Health Worker View** (Community Child Registry, Defaulter Tracker & 1-Click SMS dispatch).
-- **Direct APK Download:** Bundled with the official Android APK installer (`packetcare.apk`, v1.0.0, 120.8 MB), checksum verification, and illustrated installation modal for Android 8.0+.
+- **Direct APK Download:** Bundled with the official Android APK installer (`packetcare.apk`, v1.0.0, 56.2 MB), checksum verification, and illustrated installation modal for Android 8.0+.
 - **Healthcare Dark Mode Design System:** Sleek, high-contrast dark theme utilizing deep navy tones (`#0B1220`, `#101B2D`), glowing medical blue (`#3B82F6`) and emerald accents, dark glassmorphism, and responsive typography.
 
 ---
@@ -70,7 +70,7 @@ packetcare_landingpage/
 ├── dist/                     # Optimized production output
 ├── public/
 │   ├── downloads/
-│   │   └── packetcare.apk    # Official Android build (120.8 MB)
+│   │   └── packetcare.apk    # Official Android build (56.2 MB)
 │   └── favicon.svg           # Health shield brand icon
 ├── src/
 │   ├── components/
