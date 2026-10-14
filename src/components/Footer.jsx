@@ -1,4 +1,5 @@
 import React from 'react';
+import BrandLogo from './BrandLogo';
 import { PACKETCARE_CONFIG } from '../data/config';
 import { Download, ShieldCheck, Heart } from 'lucide-react';
 
@@ -12,14 +13,7 @@ export default function Footer({ onDownloadClick, onOpenInstallModal }) {
           
           {/* Brand & Overview */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 rounded-lg bg-care-600 text-white flex items-center justify-center font-bold text-sm">
-                PC
-              </div>
-              <span className="text-xl font-black text-white tracking-tight">
-                Packet<span className="text-care-400">Care</span>
-              </span>
-            </div>
+            <BrandLogo size="lg" />
 
             <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-sm">
               Mobile-Based Child Immunization Notification and Tracking System for Android. Aligned with the Philippine DOH Expanded Program on Immunization (EPI).

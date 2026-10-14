@@ -4,31 +4,24 @@ export default function BrandLogo({ size = 'md', showTagline = false }) {
   const isLarge = size === 'lg';
   const isSmall = size === 'sm';
 
-  const iconSizeClass = isLarge ? 'w-11 h-11' : isSmall ? 'w-8 h-8' : 'w-9 h-9';
-  const textClass = isLarge ? 'text-2xl font-black' : isSmall ? 'text-lg font-bold' : 'text-xl font-extrabold';
+  const iconSizeClass = isLarge ? 'w-11 h-11' : isSmall ? 'w-8 h-8' : 'w-10 h-10';
+  const textClass = isLarge ? 'text-2xl font-black' : isSmall ? 'text-lg font-bold' : 'text-xl font-black';
 
   return (
     <div className="flex items-center gap-3 group select-none">
-      <div
-        className={`${iconSizeClass} relative rounded-xl bg-gradient-to-br from-care-500 to-care-700 flex items-center justify-center text-white shadow-lg shadow-care-500/30 group-hover:shadow-care-500/50 group-hover:scale-105 transition-all duration-300 ring-1 ring-white/30`}
-      >
-        {/* Stylized Cross with central heart dot */}
-        <svg
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          className="w-5 h-5 text-white"
-        >
-          <path d="M12 4v16m-8-8h16" />
-        </svg>
-        <span className="absolute w-2 h-2 rounded-full bg-emerald-400 ring-1 ring-white top-1 right-1 animate-pulse" />
+      {/* Official App Logo Emblem */}
+      <div className={`${iconSizeClass} relative flex items-center justify-center shrink-0`}>
+        <img
+          src="/images/packetcare-logo.png"
+          alt="PacketCare Official Logo"
+          className="w-full h-full object-contain rounded-xl shadow-lg shadow-care-500/30 group-hover:shadow-care-500/50 group-hover:scale-105 transition-all duration-300"
+          loading="eager"
+        />
       </div>
 
+      {/* Brand Name & Tag */}
       <div className="flex flex-col">
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-2">
           <span className={`${textClass} tracking-tight text-white`}>
             Packet<span className="text-care-400">Care</span>
           </span>
@@ -38,7 +31,7 @@ export default function BrandLogo({ size = 'md', showTagline = false }) {
         </div>
         {showTagline && (
           <span className="text-xs text-slate-400 font-medium -mt-0.5">
-            Child Immunization Tracker
+            Child Immunization Tracking System
           </span>
         )}
       </div>
